@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon-precomposed" href="images/mobile_web_icon.png">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Sumin portfolio</title>
+    <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+
+    <!-- waypoint -->
+    <script src="js/jquery.waypoints.js"></script>
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- 딩벳폰트 참조 -->
+    <link rel="stylesheet" href="css/fontello/css/animation.css">
+    <link rel="stylesheet" href="css/fontello/css/fontello.css">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo1.png" alt="logo">
+                </a>
+                <div class="nav">
+                    <ul class="gnb">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#project">PROJECT</a></li>
+                        <li><a href="#life">LIFE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
+        <div class="main" id="home">
+            <section class="visual">
+                <div class="container">
+                    <div class="visual-left">
+                        <h4 class="sub-title">Hello, I’m</h4>
+                        <h1 class="title">Sumin Yeom</h1>
+                        <p>A Frontend & Web Developer</p>
+                        <a class="main-btn" href="#project">View my Work</a>
+                    </div>
+                    <div class="header-social">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="header-social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="icon-github-circled"></i></a></li>
+                                        <li><a href="#"><i class="icon-comment"></i></a></li>
+                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
+                                        <li><a href="#"><i class="icon-mail-1"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visual-right">
+                        <div class="visual-right-img">
+                            <img src="images/vis.png" alt="이미지">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 class="main-title">About me</h2>
+                    <div class="ab-wrap">
+                        <div class="ab-left">
+                            <h3 class="ab-title">Hi There! I'm Sumin Yeom</h3>
+                            <p class="ab-txt">안녕하세요. 어제보다 오늘이 더 발전하는 프론트엔드 개발자 염수민입니다.<br>
+                                복습이 즐겁고 꾸준하게 머릿속에 집어넣는 그런 개발자!<br>
+                                막히는 부분이 있을 때 묘한 재미를 느끼며 해결방안을 찾는 그런 개발자<br>
+                                항상 긍정적인 모습으로 코딩을 하는 그런 개발자입니다.</p>
+                            <div class="ab-left-bot">
+                                <i class="icon-calendar-1"><span>Date of birth: <b>19 April 1996</b></span></i>
+                                <i class="icon-mail-2"><span>Email: <b>dev.sm6683@gmail.com</b></span></i>
+                                <i class="icon-mobile"><span>Phone: <b>010-6683-7577</b></span></i>
+                                <i class="icon-location"><span>Location: <b>In Daegu</b></span></i>
+                            </div>
+                        </div>
+                        <div class="ab-right">
+                            <div class="ab-right-img">
+                                <img src="images/aaa.png" alt="이미지">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="container">
+                    <h2 class="main-title">Skills</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-code-alt"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bhtml.png" alt="img"></h4>
+                                    <p class="servive-font">HTML로 레이어웃을 만들 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bcss.png" alt="img"></h4>
+                                    <p class="servive-font">CSS로 디자인을 이용하여 웹을 디자인 할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-mobile"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bjs.png"></h4>
+                                    <p class="servive-font">Javascript를 이용하여 객체를 제어할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-vector"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bjq.png"></h4>
+                                    <p class="servive-font">Jquery를 이용해 문법을 적용할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-website"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bphp.png"></h4>
+                                    <p class="servive-font">PHP를 사용해 DB연동을 할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-support"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bvue.png"></h4>
+                                    <p class="servive-font">Vue.js를 사용하여 서버를 구성할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-support"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bscss.png"></h4>
+                                    <p class="servive-font">SCSS를 사용하여 최신 문법을 적용할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-support"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bboot.png"></h4>
+                                    <p class="servive-font">Bootstrap를 이용해 빠르게 웹을 제작할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-service text-center">
+                                <div class="service-icon">
+                                    <i class="lni-support"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><img src="images/bmysql.png"></h4>
+                                    <p class="servive-font">Mysql을 이용하여 데이터베이스를 관리할 수 있습니다.</p>
+                                </div>
+                            </div> <!-- single service -->
+                        </div>
+                    </div> <!-- row -->
+                </div>
+            </section>
+            <section class="project" id="project">
+                <div class="container">
+                    <h2 class="main-title">Project</h2>
+                    <div class="project-wrap">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-work text-center mt-30">
+                                <div class="work-image">
+                                    <img src="images/stx360.png" alt="work">
+                                </div>
+                                <div class="work-overlay">
+                                    <div class="work-content">
+                                        <h3 class="work-title">STX건설 Clone Coding</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-github-circled">Giithub</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">Work</i></a></li>
+                                            <li><a href="#"><i class="icon-wrench">origin</i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- single work -->
+                        </div>
+                    </div> <!-- row -->
+                </div>
+
+            </section>
+            <section class="life" id="life">
+                <div class="container">
+                    <h2 class="main-title">Life</h2>
+                    <div class="life-wrap">
+                        <figure class="snip1445">
+                            <img src="images/gam.png" alt="img" />
+                            <figcaption>
+                                <div>
+                                    <h2>Travel</h2>
+                                    <h4>Guam</h4>
+                                </div>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="life-wrap">
+                        <figure class="snip1445 hover"><img src="images/life.png" alt="img" />
+                            <figcaption>
+                                <div>
+                                    <h2>Travel</h2>
+                                    <h4>My Life is Travel</h4>
+                                </div>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="life-wrap">
+                        <figure class="snip1445"><img src="images/life2.png" alt="img" />
+                            <figcaption>
+                                <div>
+                                    <h2>Travel</h2>
+                                    <h4>Japan</h4>
+                                </div>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <h2 class="main-title">Contact</h2>
+                    <div class="contact-wrap">
+                        <ul class="contact-list">
+                            <li><a href="https://github.com/min6683" target="_blank"><i class="icon-github-circled"></i></a></li>
+                            <li><a href="https://open.kakao.com/o/sgc5Saee" target="_blank"><i class="icon-comment"></i></a></li>
+                            <li><a href="#"><i class="icon-instagram" target="_blank"></i></a></li>
+                            <li><a href="mailto:dev.sm6683@gmail.com" target="_blank"><i class="icon-mail-1"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
