@@ -29,7 +29,6 @@ window.onload = function () {
 
         $(gnb_a).click(function (event) {
             event.preventDefault();
-            console.log(gnb_a);
             $('html,body').animate({
                 scrollTop: $(this.hash).stop().offset().top - 100
             }, 500);
@@ -37,6 +36,16 @@ window.onload = function () {
         });
 
     });
+    let menu_ham = $('.icon-menu');
+    let submenu = $('.submenu');
+    $(document).ready(function(){
+        $(menu_ham).click(function(event){
+            event.preventDefault()
+            $('menu_ham').scrollTop('submenu');
+        })
+    })
+
+
     $(document).ready(function ($) {
 
         $(main_btn).click(function (event) {
