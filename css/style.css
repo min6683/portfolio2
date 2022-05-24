@@ -806,6 +806,7 @@ body {
     position: relative;
     display: block;
     background-color: rgb(251, 251, 251);
+    cursor: default;
 }
 
 .skills .container {
@@ -1014,8 +1015,9 @@ body {
 }
 
 .servive-font {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 15px;
+    
 }
 
 /* //about */
@@ -1047,7 +1049,7 @@ body {
     position: relative;
     display: inline-block;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .single-work .work-image img {
@@ -1612,7 +1614,7 @@ body {
 .gotop i {
     position: relative;
     display: block;
-    color: #bbb;
+    color: #000;
 }
 
 .contact .container {
@@ -1639,6 +1641,11 @@ body {
 
 .contact-list li a {
     font-size: 30px;
+}
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
 }
 
 
