@@ -23,6 +23,7 @@ window.onload = function () {
         }, 500);
     });
 
+
     let gnb_a = $('.gnb a');
     let main_btn = $('.main-btn');
     let submenu_a = $('.submenu a');
@@ -57,10 +58,10 @@ window.onload = function () {
         // $(".navbar-toggler").on('click', function () {
         //     submenu.css('display', 'block');
         // });
-        $('#btn').click(function(){
+        $('#btn').click(function () {
             $('.m-menu').toggleClass('m-menu-active');
         })
-        
+
     });
 
 
@@ -74,9 +75,9 @@ window.onload = function () {
         }, 500);
 
     });
-    $(window).resize(function(){
+    $(window).resize(function () {
         let w = $(window).width();
-        if(w > 720) {
+        if (w > 720) {
             $('.m-menu').removeClass('m-menu-active');
         }
     })
