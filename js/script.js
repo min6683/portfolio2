@@ -74,6 +74,12 @@ window.onload = function () {
         }, 500);
 
     });
+    $(window).resize(function(){
+        let w = $(window).width();
+        if(w > 720) {
+            $('.m-menu').removeClass('m-menu-active');
+        }
+    })
 
 
 };
