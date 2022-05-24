@@ -41,6 +41,7 @@ html {
 body {
     font-family: 'Noto Sans KR', 'NanumSquare', '돋움', Dotum, '굴림', Gulim, Helvetica, 'Apple SD Gothic Neo', Tahoma, Geneva, sans-serif, verdana;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 /* 공통요소 */
@@ -517,7 +518,7 @@ body {
     }
 
     .sub-title {
-        font-size: 25px !important;
+        font-size: 3rem !important;
         white-space: nowrap;
     }
 
@@ -530,7 +531,18 @@ body {
         margin-left: 90px !important;
     }
 }
-
+@media all and (max-width:380px) {
+    .visual-left {
+        padding: 0 0 0 50px;
+    }
+    .visual-left p {
+        white-space: nowrap;
+    }
+    .sub-title {
+        font-size: 3rem !important;
+        white-space: nowrap;
+    }
+}
 .visual-left {
     position: relative;
     display: block;
@@ -780,7 +792,6 @@ body {
 
     .about .container {
         text-align: left;
-        margin-left: 40px;
         white-space: nowrap;
     }
 
@@ -797,14 +808,27 @@ body {
 
 @media all and (max-width:480px) {
     ab-title {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     ab-txt {
-        font-size: 14px !important;
+        font-size: 1rem;
     }
 }
+@media all and (max-width:380px) {
+    .about .container {
+        text-align: left;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+    ab-title {
+        font-size: 1rem;
+    }
 
+    ab-txt {
+        font-size: 1rem;
+    }
+}
 .skills {
     position: relative;
     display: block;
@@ -857,8 +881,14 @@ body {
 }
 
 @media all and (max-width:720px) {
+    service-content {
+        max-width: 50%;
+        max-height: 50%;
+        width: 50vw;
+        height: 50vw;
+    }
     .service-title img {
-        padding-left: 75px;
+        padding-left: 50%;
     }
 
     .servive-font {
@@ -867,7 +897,7 @@ body {
 }
 @media all and (max-width:620px) {
     .service-title img {
-        padding-left: 60px;
+        padding-left: 50%;
     }
 }
 
@@ -876,9 +906,14 @@ body {
         padding-left: 35px;
     }
 }
-@media all and (max-width:480px) {
+@media all and (max-width:420px) {
     .service-title img {
-        padding-left: 30px;
+        padding-left: 35px;
+    }
+}
+@media all and (max-width:380px) {
+    .service-title img {
+        padding-left: 10px;
     }
 }
 
@@ -1298,6 +1333,13 @@ body {
         height: 100%;
     }
 }
+@media all and (max-width:380px) {
+    .project-wrap {
+        position: relative;
+        display: block;
+        margin-left: 35px;
+    }
+}
 
 
 /* //project */
@@ -1547,12 +1589,12 @@ body {
         height: 100%;
     }
 }
-@media all and (max-width:520px) {
+@media all and (max-width:380px) {
     
     .life-wrap {
         position: relative;
         display: block;
-        margin-left: 110px;
+        margin-left: 35px;
     }
 
     .snip1445 {
@@ -1629,4 +1671,10 @@ body {
     }
 }
 
-@media all and (max-width:520px) {}
+@media all and (max-width:520px) {
+    
+}
+
+@media all and (max-width:380px) {
+   
+}
